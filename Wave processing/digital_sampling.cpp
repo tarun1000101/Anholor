@@ -1,5 +1,3 @@
-#include <trignometry.hpp>
-
 class sampling{
     double* fourier_transform(double *wave_levels)
     {
@@ -16,4 +14,4 @@ class sampling{
 
         return samples;
     }
-}
+};
