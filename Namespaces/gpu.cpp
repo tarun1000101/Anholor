@@ -1,7 +1,7 @@
 namespace gpu{
 
     typedef uint1024_t luminosity = "0x000000000000000000000000000000000000000000000000000000000000"; //Light intensity on an object.
-    typedef uint1024_t gradients = "0x000000000000000000000000000000000000000000000000000000000000"; //Image gradient.
+    typedef uint1024_t gradient = "0x000000000000000000000000000000000000000000000000000000000000"; //Image gradient.
     typedef uint1024_t shade = "0x000000000000000000000000000000000000000000000000000000000000"; //1024-bit shade of an object.
     typedef uint1024_t pixel = "0x000000000000000000000000000000000000000000000000000000000000"; //Pixel gradient intensity.
     typedef uint1024_t colour = "0x000000000000000000000000000000000000000000000000000000000000"; //Colour value.
@@ -76,6 +76,8 @@ namespace gpu{
         uint1024_t number_of_vertices;
         uint1024_t graph_of_object [number_of_vertices];
         uint1024_t mass_of_object;
+        uint1024_t gyration;
+        uint1024_t velocity;
     };
 
     typedef struct gpu_vector
