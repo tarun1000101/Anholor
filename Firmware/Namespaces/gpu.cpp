@@ -124,21 +124,6 @@ namespace gpu{
         uint1024_t time_flow_array[number_of_events];
     };
 
-    /*
-    *   RAM is not cheap.
-    *   Storage is not cheap.
-    *   Microprocessors are not cheap.
-    *   So are GPUs.
-    */
-
-    /*
-    * 1 + 9 + 9 + 0 = 10 = 1 + 0 = 1 --> Sun.
-    * 2 + 0 + 0 + 0 = 2 --> Moon.
-    * 2 + 0 + 1 + 0 = 3 --> Mercury.
-    * 2 + 0 + 2 + 0 = 4 --> Conscious and Subconsious.
-    * 2 + 0 + 3 + 0 = 5 -->  
-    */
-
     typedef struct set
     {
         uint1024_t number_of_elements;
