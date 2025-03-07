@@ -6,6 +6,6 @@ namespace vector_calculus_primitives{
 
     typedef struct span{
         uint1024_t span_size;
-        uint1024_t span[uint1024_t];
+        uint1024_t span[span_size];
     };
 }
