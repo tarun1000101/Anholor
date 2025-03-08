@@ -28,4 +28,10 @@ namespace graphics_primitives{
         long long int height;
         long long int z_height;
     };
+
+    typedef struct rendered_image{
+        long long int height;
+        long long int width;
+        uint1024_t rendered_image[length][breadth];
+    };
 }
