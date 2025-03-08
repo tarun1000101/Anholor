@@ -5,3 +5,6 @@ Once you make hardware, there is no unmaking it.
 # Advices
 You want HPC (High Performance Computing)?
 You need to think highly efficiently. Otherwise, it is very difficult.
+You want to make a physics engine?
+You need to understand physics.
+Chemists are good at computer science because computer science mostly relies on change. In chemistry, if something changes, it means something has happened
