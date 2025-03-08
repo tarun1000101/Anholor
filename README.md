@@ -11,3 +11,4 @@ Chemists are good at computer science because computer science mostly relies on 
 Practice science on paper. It helps a lot.
 You have books with unused pages?
 You can use them instead of buying new ones. After use, you can sell them to a recycler.
+You want to work on it, you work on it. I am doing this in my free time.
