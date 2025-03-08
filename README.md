@@ -7,4 +7,7 @@ You want HPC (High Performance Computing)?
 You need to think highly efficiently. Otherwise, it is very difficult.
 You want to make a physics engine?
 You need to understand physics.
-Chemists are good at computer science because computer science mostly relies on change. In chemistry, if something changes, it means something has happened
+Chemists are good at computer science because computer science mostly relies on change. In chemistry, if something changes, it means something has happened.
+Practice science on paper. It helps a lot.
+You have books with unused pages?
+You can use them instead of buying new ones. After use, you can sell them to a recycler.
