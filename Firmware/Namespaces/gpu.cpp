@@ -10,6 +10,11 @@ namespace gpu{
         uint1024_t size_of_data;
         char data[size_of_data];
     };
+
+    typedef struct display_depth{
+        long long int bit_depth;
+        char image_to_send[bit_depth][bit_depth];
+    };
     
     typedef struct int512_t{
         uint512_t length_of_number;
