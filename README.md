@@ -13,3 +13,5 @@ You have books with unused pages?
 You can use them instead of buying new ones. After use, you can sell them to a recycler.
 You want to work on it, you work on it. I am doing this in my free time.
 Use your head or heart. God did not give you that for no reason.
+Don't be a copy. You might as well be a clone if you are.
+Nouryoku de Douryoku de Shouryoku.
