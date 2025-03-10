@@ -15,30 +15,10 @@ namespace gpu{
         long long int bit_depth;
         char image_to_send[bit_depth][bit_depth];
     };
-    
-    typedef struct int512_t{
-        uint512_t length_of_number;
-        char number[length_of_number];
-    };
-
-    typedef struct int1024_t{
-        uint1024_t length_of_number;
-        char number[length_of_number];
-    };
 
     typedef struct string{
         uint1024_t number_of_characters;
         char array[number_of_characters];
-    };
-
-    typedef struct float512_t{
-        uint512_t integer;
-        uint512_t fraction;
-    };
-
-    typedef struct float1024_t{
-        uint1024_t integer;
-        uint1024_t fraction;
     };
 
     typedef struct gpu_information{
