@@ -115,4 +115,11 @@ namespace physics{
         uint1024_t distance_betwen_layers[number_of_layers];
     };
 
+    typedef struct star{
+        uint1024_t mass_of_star;
+        uint1024_t radius_of_star_from_core;
+        uint1024_t gravitational_field_of_star;
+        uint1024_t fuel_in_star;
+    };
+
 }
