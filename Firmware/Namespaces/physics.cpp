@@ -1,6 +1,6 @@
 namespace physics{
 
-    typedef struct object_data{
+    typedef struct object_properties{
         uint1024_t image [7680][4320];
         uint1024_t x_coordinate;
         uint1024_t y_coordinate;
@@ -14,7 +14,10 @@ namespace physics{
         uint1024_t number_of_vertices;
         uint1024_t graph_of_object [number_of_vertices];
         uint1024_t mass_of_object;
-        uint1024_t quantum_effect;
+        uint1024_t energy_radiation_of_object;
+        uint1024_t height_of_object;
+        uint1024_t frequency_emitted_by_object;
+        uint1024_t reverberation_of_object;
     };
 
     typedef struct object_free_body_motion{
