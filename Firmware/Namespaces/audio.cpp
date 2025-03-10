@@ -3,6 +3,6 @@ namespace audio{
         long long int length_of_block;
         uint64_t MIDI_signal_block[length_of_block];
         uint64_t MIDI_amplification_block[length_of_block];
-        uint64_t 
+        uint64_t MIDI_device_block [length_of_block];
     };
 }

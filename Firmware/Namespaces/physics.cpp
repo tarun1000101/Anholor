@@ -20,6 +20,14 @@ namespace physics{
         uint1024_t reverberation_of_object;
     };
 
+    typedef struct quark{
+        long long int energy;
+    };
+
+    typedef struct lepton{
+        long long int energy;
+    };
+
     typedef struct object_free_body_motion{
         uint1024_t gyration;
         uint1024_t gravitational_pull;
@@ -93,4 +101,5 @@ namespace physics{
         uint1024_t distance_between_objects;
         uint1024_t gravitiational_constant_of_an_object = (universal_gravitational_constant * mass_of_object1 * mass_of_object2)/distance_between_objects;
     };
+
 }
