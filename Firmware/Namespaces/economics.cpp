@@ -30,5 +30,25 @@ namespace economics{
         double2048_t future_amount;
     };
 
-    typedef struct 
+    typedef struct arithmetic_series{
+        double2048_t arthimetic_factor;
+    };
+
+    typedef struct geometric_series{
+        double2048_t geometric_factor;
+    };
+
+    typedef struct rate_of_return{
+        double2048_t rate_of_return_1;
+        double2048_t rate_of_return_2;
+        double2048_t present_worth_1;
+        double2048_t present_worth_2;
+    };
+
+    typedef struct internal_rate_of_return{
+        double2048_t number_of_costs;
+        double2048_t number_of_types_of_costs;
+        double2048_t costs_matrix[number_of_types_of_costs][number_of_costs];
+        
+    };
 }
