@@ -45,10 +45,9 @@ namespace economics{
         double2048_t present_worth_2;
     };
 
-    typedef struct internal_rate_of_return{
+    typedef struct alternative{
         double2048_t number_of_costs;
         double2048_t number_of_types_of_costs;
         double2048_t costs_matrix[number_of_types_of_costs][number_of_costs];
-        
     };
 }
