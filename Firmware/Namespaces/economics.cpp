@@ -32,6 +32,14 @@ namespace economics{
 
     typedef struct arithmetic_series{
         double2048_t arthimetic_factor;
+        double2048_t number_of_cash_flows;
+        double2048_t cash_flows[number_of_cash_flows];
+    };
+
+    typedef struct geometric_series{
+        double2048_t geometric_factor;
+        double2048_t number_of_cash_flows;
+        double2048_t cash_flows[number_of_cash_flows];
     };
 
     typedef struct geometric_series{
