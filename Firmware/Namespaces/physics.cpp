@@ -14,6 +14,7 @@ namespace physics{
         uint1024_t number_of_vertices;
         uint1024_t graph_of_object [number_of_vertices];
         uint1024_t mass_of_object;
+        uint1024_t quantum_effect;
     };
 
     typedef struct object_free_body_motion{
