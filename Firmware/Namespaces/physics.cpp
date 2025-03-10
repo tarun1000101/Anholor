@@ -28,6 +28,14 @@ namespace physics{
         long long int energy;
     };
 
+    typedef struct neutrino{
+        long long int mass;
+    };
+
+    typedef struct gluon{
+        long long int adhesiveness;
+    };
+
     typedef struct object_free_body_motion{
         uint1024_t gyration;
         uint1024_t gravitational_pull;
