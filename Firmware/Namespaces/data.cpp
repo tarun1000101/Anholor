@@ -13,6 +13,9 @@ namespace data{
     typedef float512_t = "0"; // Signed 512-bit floating point number.
     typedef float1024_t = "0"; // Signed 1024-bit floating point number.
     typedef float2048_t = "0"; // Signed 2048-bit floating point number.
+    typedef double512_t = "0"; // Signed 512-bit double precision number.
+    typedef double1024_t = "0"; // Signed 1024-bit double precision number.
+    typedef double2048_t = "0"; // Signed 2048-bit double precision number.
 
     typedef struct variable_data_type{
         char *data;
