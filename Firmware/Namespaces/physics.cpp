@@ -113,6 +113,11 @@ namespace physics{
     typedef struct planet{
         uint1024_t number_of_layers;
         uint1024_t distance_betwen_layers[number_of_layers];
+        uint1024_t wind_speed_on_planet;
+        uint1024_t mass_of_planet;
+        uint1024_t mass_of_core;
+        uint1024_t electric_field_of_core;
+        uint1024_t magnetic_field_of_core;
     };
 
     typedef struct star{
